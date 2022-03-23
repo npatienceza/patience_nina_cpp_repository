@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.21)
+project(Lab_10)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Lab_10
+        patience_nina_lab10_main.cpp Bird.cpp Bird.h)
